@@ -17,6 +17,7 @@
     "@strapi/plugin-i18n": "4.10.2",
     "@strapi/plugin-users-permissions": "4.10.2",
     "@strapi/strapi": "4.10.2",
+    "faker": "^6.6.6",
     "mysql": "2.18.1"
   },
   "author": {
