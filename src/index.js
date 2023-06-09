@@ -17,6 +17,20 @@ module.exports = {
    * This gives you an opportunity to set up your data model,
    * run jobs, or perform some special logic.
    */
-  bootstrap(/*{ strapi }*/) { }
+  bootstrap(/* {  strapi  }*/) {
+
+  },
+  // async bootstrap({ strapi }) {
+  //   for (let i = 0; i < 10; i++) {
+  //     await strapi.entityService.create('api::post.post', {
+  //       data: {
+  //         postTitle: faker.commerce.department() + ' ' + faker.word.noun(10),
+  //         description: faker.lorem.paragraph(),
+  //         detail: faker.commerce.productDescription() + faker.word.noun(),
+
+  //       },
+  //     });
+  //   }
+  // },
 
 };

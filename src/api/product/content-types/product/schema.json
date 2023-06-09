@@ -44,6 +44,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::category.category"
+    },
+    "brand": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::brand.brand"
     }
   }
 }
